@@ -1,0 +1,10 @@
+App(
+    appid="ble_spam",
+    name="Bluetooth",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ble_spam_app",
+    stack_size=8 * 1024,
+    fap_icon="icon.png",
+    fap_category="Bluetooth",
+    requires=["gui", "bt"],
+)
